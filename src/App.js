@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
+// import dynamic from 'next/dynamic';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+// const BrowserRouter = dynamic(() => import('react-router-dom').then(mod => mod.BrowserRouter), { ssr: false });
 
 // Bileşenin bağlantısı kaldırıldığında/unmounted uygulamamızın state'i güncellemesini durdurmak için useEffect'teki cleanup fonksiyonunu kullanın
 export default function App() {
